@@ -30,9 +30,11 @@ Reforming the Brain Shape
 
 Script: creatinggroundtruthageprediction.py
 Multiplies the noisy volume by the binary brain mask to reshape the noisy data into the correct brain structure, creating the final age maps.
+
 4. Matching Files
 Script: creatingmatchedcsvfiles.py
 Combines the SynthStripped MRI data, binary segmentation masks, and the corresponding ground truth age maps into a unified dataset.
+
 5. Model Training
 The project includes two main models for voxel-level brain age prediction:
 SwinUNETR: swinunetr.py
